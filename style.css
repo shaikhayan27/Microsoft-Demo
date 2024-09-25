@@ -326,3 +326,67 @@ ul {
         margin-bottom: 20px;
     }
 }
+
+/* Hover Effects */
+
+/* Link Hover */
+a:hover {
+    color: #0067b8;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Button Hover */
+.btn:hover {
+    opacity: 0.9;
+    background-color: #005a9e; /* Slightly darker blue */
+    box-shadow: 0px 4px 15px rgba(0, 103, 184, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Showcase Button Hover */
+.showcase .btn:hover {
+    background-color: #004a8f; /* Darker shade for contrast */
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Home Cards Hover */
+.home-cards div:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Home Cards Link Hover */
+.home-cards a:hover i {
+    margin-left: 15px;
+    transition: margin-left 0.3s ease;
+}
+
+/* Xbox Section Hover */
+.xbox .btn:hover {
+    background-color: #008a00;
+    box-shadow: 0px 4px 15px rgba(0, 138, 0, 0.5);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Carbon Section Button Hover */
+.carbon .btn:hover {
+    background-color: #f4f4f4;
+    color: #000;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Social Media Icons Hover */
+.follow a:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+/* Footer Link Hover */
+.footer ul li a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
